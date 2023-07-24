@@ -1,0 +1,63 @@
+
+*{
+    padding:0%;
+    margin:0%; 
+    box-sizing: border-box;   
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.contenedor{
+    width: 110%;
+    max-width: auto; /* Puedes ajustar este valor según tus necesidades */
+    background: white;
+    margin: 0 auto;
+    border: 1px solid #c1c1c1;
+    padding: 2%;
+    box-sizing: border-box;
+    
+}
+header{
+    width: 100%;
+    height: 300px;
+    background: url('img/lobito.jpg')black;
+    background-size: cover ;
+    background-position: center;
+}
+
+main .perfil{
+    width: 200px;
+    height: 200px;
+    background: gray;
+    margin: -105px auto auto auto;
+    border: 6px solid #fff;
+    border-radius: 50%;
+}
+
+main .perfil img{
+    width: 100%;
+    border-radius: 50%;
+}
+main .texto{
+    text-align: center;
+    padding: 2%;
+}
+
+main .texto h2{
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+main .texto p{
+    font-size: 1em;
+}
+
+footer{
+    background: slateblue;
+    padding: 15px;
+}
+footer p{
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+}
